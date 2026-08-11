@@ -3,7 +3,7 @@
 #include <maca_fp16.h>
 #include <cmath>
 
-// 若 half 类型未自动定义，手动提供别名
+
 #ifndef half
 using half = __half;
 #endif

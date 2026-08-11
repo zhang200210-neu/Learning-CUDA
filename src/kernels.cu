@@ -3,11 +3,9 @@
 #include <iostream>
 #include <algorithm>
 
-// NVIDIA 和天数智芯共用 CUDA 兼容头文件
 #include <cuda_fp16.h>
 #include <cuda_runtime.h>
 
-// 常量定义
 const float INFINITY_F = 1e30f;
 
 /**

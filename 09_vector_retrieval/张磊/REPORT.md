@@ -69,7 +69,7 @@ recall@100 达到 1.000，IVF-PQ 的召回率受量化精度限制（本数据�
 | 项目 | 平台 A（NVIDIA） | 平台 B（天数智芯） | 平台 C（沐曦） | 平台 D（摩尔线程） |
 | --- | --- | --- | --- | --- |
 | GPU | GeForce RTX 4090 | Iluvatar MR-V100 | MetaX MXC500（单 SGPU 分片） | 摩尔线程 GPU（`/dev/mtgpu`） |
-| 显存 | 24 GB | 32 GB | 32 GB（mx-smi 显示 50% 规格） | （`musaMemGetInfo` 报告空闲 49 GB） |
+| 显存 | 24 GB | 32 GB | 32 GB（mx-smi 显示 50% 规格） | 48 GB（`musaMemGetInfo` 报告空闲 49 GB） |
 | CPU / 内存 | 12核 / 90 GB | 112 核 / 32 GB | 128 核 / 64 GB | 128 核 / 64 GB |
 | 操作系统 | Ubuntu 24.04 | Ubuntu 24.04.4 | Ubuntu 20.04 | Ubuntu 20.04（内核 5.15） |
 | GPU 驱动 / 工具链版本 | 570.124.06 | IX-ML 4.4.0 | MACA 3.5.3.20（mx-smi 2.2.12） | MUSA 5.1.0（CUB 1.17.2、mcc 5.1.0） |
